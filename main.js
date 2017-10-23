@@ -11,7 +11,7 @@ const app = new Vue({
     },
     template: `
     <div>
-        <h1>{{Caree.age}}</h1>
+        <h1>{{Caree.firstName}} {{Caree.lastName}} {{Caree.age}}</h1>
     </div>
     `
 })
