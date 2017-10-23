@@ -2,5 +2,10 @@
 
 const app = new Vue({
     el: "#app",
-    template: '<h1>Hello my dudes</h1>'
+    template: `
+    <div>
+        <h1>Hi</h1>
+        <h2>hello</h2>
+    </div>
+    `
 })
