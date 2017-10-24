@@ -7,14 +7,15 @@ const app = new Vue({
             firstName: 'Caree',
             lastName: 'Youngman',
             age: 24,
-            userID: 00000
+            userID: 00000,
+            userImage: 'user.jpg'
         }
     },
     template: `
     <div>
         <h1>{{user.firstName}} {{user.lastName}} {{user.age}}</h1>
         <h2>{{userID}}</h2>
-        <p>Lorem ipsum dolor</p>
+        <img src="{{userImage}}">
     </div>
     `
 })
