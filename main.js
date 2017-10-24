@@ -15,7 +15,7 @@ const app = new Vue({
     <div>
         <h1>{{user.firstName}} {{user.lastName}} {{user.age}}</h1>
         <h2>{{user.userID}}</h2>
-        <img :src=user.userImage>
+        <img :src=user.userImage class="user-image">
     </div>
     `
 })
