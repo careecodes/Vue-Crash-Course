@@ -3,15 +3,16 @@
 const app = new Vue({
     el: "#app",
     data: {
-        Caree: {
+        user: {
             firstName: 'Caree',
             lastName: 'Youngman',
             age: 24,
         }
     },
-    template: `
+    template: 
+    `
     <div>
-        <h1>{{Caree.firstName}} {{Caree.lastName}} {{Caree.age}}</h1>
+        <h1>{{user.firstName}} {{user.lastName}} {{user.age}}</h1>
     </div>
     `
 })
