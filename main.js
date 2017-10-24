@@ -9,10 +9,10 @@ const app = new Vue({
             age: 24,
         }
     },
-    template: 
-    `
+    template: `
     <div>
         <h1>{{user.firstName}} {{user.lastName}} {{user.age}}</h1>
+        <p>Lorem ipsum dolor</p>
     </div>
     `
 })
