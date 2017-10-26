@@ -1,0 +1,24 @@
+{
+  "name": "vue-crash-course",
+  "version": "1.0.0",
+  "description": "learning about vue",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/careecodes/Vue-Crash-Course.git"
+  },
+  "keywords": [
+    "vue",
+    "frontend",
+    "beginner"
+  ],
+  "author": "careecodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/careecodes/Vue-Crash-Course/issues"
+  },
+  "homepage": "https://github.com/careecodes/Vue-Crash-Course#readme"
+}
